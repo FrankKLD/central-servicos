@@ -1,15 +1,23 @@
 import React from "react";
 
-import { Container, FormSearch, UserArea, UserIcon } from "./styles";
+import {
+  Container,
+  FormInputSearch,
+  FormSearch,
+  SearchIcon,
+  UserArea,
+  UserIcon,
+} from "./styles";
 
 const SearchArea: React.FC = () => {
   return (
     <Container>
       <FormSearch>
-        <input type="text" />
+        <FormInputSearch placeholder="Pesquisar Ticket" type="text" />
+        <SearchIcon />
       </FormSearch>
       <UserArea>
-        <span>Usuário</span>
+        <span>José da Silva</span>
         <UserIcon />
       </UserArea>
     </Container>
