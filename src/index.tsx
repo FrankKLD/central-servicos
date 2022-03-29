@@ -1,5 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import TemplateDefault from "./templates/TemplateDefault";
+import DefaultTemplate from "./template/DefaultTemplate";
 
-ReactDOM.render(<TemplateDefault />, document.getElementById("root"));
+ReactDOM.render(<DefaultTemplate />, document.getElementById("root"));

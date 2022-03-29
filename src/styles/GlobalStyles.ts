@@ -9,6 +9,7 @@ export default createGlobalStyle`
 
   html, body, #root {
     height: 100%;
+    background: var(--background);
   }
 
   .DontShowIt {
@@ -22,10 +23,16 @@ export default createGlobalStyle`
   }
 
 :root {
-  --THEME_COLOR_001: #04AEAD;
-  --THEME_COLOR_002: #F9F9F9;
-  --THEME_COLOR_003: #FFFFFF;
-  --THEME_COLOR_004: #64646C;
-  --THEME_COLOR_005: #8C8C8E;
+  --THEME_COLOR_001: #06A78D; 
+  --THEME_COLOR_002: #FFFFFF; 
+  --THEME_COLOR_003: #FFFFFF; 
+  --THEME_COLOR_004: #FFFFFF; 
+  --THEME_COLOR_005: #FFFFFF; 
+  --THEME_COLOR_006: #FFFFFF; 
+  --THEME_COLOR_007: #FFFFFF; 
+  --THEME_COLOR_008: #FFFFFF; 
+  --THEME_COLOR_008: #FFFFFF;
+
+  --background: var(--THEME_COLOR_008);
 }
 `;
